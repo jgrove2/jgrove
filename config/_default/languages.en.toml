@@ -1,0 +1,27 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Jgrove.dev"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2023-01-27"
+  logo = "img/logo.png"
+  description = "My Personal Blog Site"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Justin Grove"
+  email = "justinwgrove@gmail.com"
+  image = "https://avatars.githubusercontent.com/u/26723005?v=4"
+  imageQuality = 96
+  headline = "Software Engineer"
+  bio = "A little bit about you"
+  links = [
+    { email = "mailto:justinwgrove@gmail.com" },
+    { github = "https://github.com/jgrove2" },
+    { linkedin = "https://linkedin.com/in/justinwgrove" },
+  ]
