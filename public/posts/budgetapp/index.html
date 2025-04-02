@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Building Budget: A Local-First Budgeting App &middot; Jgrove.dev</title>
-  <meta name="title" content="Building Budget: A Local-First Budgeting App &middot; Jgrove.dev" />
+  <title>A Local-First Budgeting App &middot; Jgrove.dev</title>
+  <meta name="title" content="A Local-First Budgeting App &middot; Jgrove.dev" />
   
   <meta name="description" content="I breifly go over one of my latest projects Budget and the technology used." />
   <meta name="keywords" content="Svelte, Typescript, Local, First, " />
@@ -66,7 +66,7 @@
   
   <meta property="og:url" content="http://localhost:1313/posts/budgetapp/">
   <meta property="og:site_name" content="Jgrove.dev">
-  <meta property="og:title" content="Building Budget: A Local-First Budgeting App">
+  <meta property="og:title" content="A Local-First Budgeting App">
   <meta property="og:description" content="I breifly go over one of my latest projects Budget and the technology used.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -82,7 +82,7 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/posts/budgetapp/featured.png">
-  <meta name="twitter:title" content="Building Budget: A Local-First Budgeting App">
+  <meta name="twitter:title" content="A Local-First Budgeting App">
   <meta name="twitter:description" content="I breifly go over one of my latest projects Budget and the technology used.">
 
   
@@ -91,8 +91,8 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "Building Budget: A Local-First Budgeting App",
-    "headline": "Building Budget: A Local-First Budgeting App",
+    "name": "A Local-First Budgeting App",
+    "headline": "A Local-First Budgeting App",
     "description": "I breifly go over one of my latest projects Budget and the technology used.",
     
     "inLanguage": "en",
@@ -110,7 +110,7 @@
     "keywords": ["Svelte","Typescript","Local","First"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "450"
+    "wordCount": "686"
   }]
   </script>
 
@@ -488,7 +488,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Building Budget: A Local-First Budgeting App
+      A Local-First Budgeting App
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -533,7 +533,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-04-01T00:00:00&#43;00:00">10112-04-17</time><span class="px-2 text-primary-500">&middot;</span><span>450 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  <time datetime="2025-04-01T00:00:00&#43;00:00">10112-04-17</time><span class="px-2 text-primary-500">&middot;</span><span>686 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
   
 
   
@@ -705,7 +705,7 @@
 <p>Budget follows a similar principle by allowing users to categorize their spending and track their finances in a structured way. With offline support and automatic syncing, it provides a local-first alternative to traditional envelope budgeting apps.</p>
 
 
-<h3 class="relative group">Data Flow in Budget 
+<h2 class="relative group">Data Flow in Budget 
     <div id="data-flow-in-budget" class="anchor"></div>
     
     <span
@@ -714,7 +714,13 @@
             style="text-decoration-line: none !important;" href="#data-flow-in-budget" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h2>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="./budget-diagram-1.png" alt="Architecture Diagram" />
+      
+    </figure>
+</p>
 <p>Budget follows a <strong>local-first architecture</strong>, meaning data is first stored on the user’s device and later synced with the backend when an internet connection is available. Here&rsquo;s how data flows through the system:</p>
 <ol>
 <li>
@@ -775,10 +781,84 @@
     
 </h2>
 <div style="display: flex; width: 100%; justify-content: space-between;">
-    <img src="./budget-img-1.png" style="width: 12rem; height: auto;"/>
-    <img src="./budget-img-2.png" style="width: 12rem; height: auto;"/>
-    <img src="./budget-img-3.png" style="width: 12rem; height: auto;"/>
+    <img src="./budget-img-1.png" style="width: 10rem"/>
+    <img src="./budget-img-2.png" style="width: 10rem"/>
+    <img src="./budget-img-3.png" style="width: 10rem"/>
 </div>
+### Explanation
+Using Budget starts with a simple setup process, allowing users to structure their finances based on the **envelope budgeting** method. Here's how it works:
+<ol>
+<li>
+<p><strong>Registering an Account</strong></p>
+<ul>
+<li>The first step is to <strong>create an account</strong>. This allows users to save and sync their data across devices while maintaining offline access.</li>
+</ul>
+</li>
+<li>
+<p><strong>Setting Up Categories &amp; Budgets</strong></p>
+<ul>
+<li>
+<p>Users create <strong>category groups</strong> (e.g., Essentials, Savings, Entertainment).</p>
+</li>
+<li>
+<p>Within each group, they define <strong>specific categories</strong> (e.g., Rent, Groceries, Subscriptions).</p>
+</li>
+<li>
+<p>At the start of each month, they assign a <strong>budget amount</strong> to each category, deciding how much they plan to spend.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Adding Income</strong></p>
+<ul>
+<li>
+<p>When they receive a paycheck, users add their <strong>income</strong> to the app.</p>
+</li>
+<li>
+<p>They then <strong>allocate the funds</strong> across their budget categories, following the envelope budgeting method—ensuring every dollar is assigned a purpose.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Tracking Expenses with Transactions</strong></p>
+<ul>
+<li>
+<p>As users spend money, they record <strong>transactions</strong>, which deduct from the assigned category budgets.</p>
+</li>
+<li>
+<p>They can see how much remains in each category, helping them stay within their spending limits.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Adjusting and Reviewing</strong></p>
+<ul>
+<li>
+<p>Throughout the month, users can adjust their budget by moving money between categories as needed.</p>
+</li>
+<li>
+<p>At the end of the month, they can review their spending and plan for the next cycle.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>With <strong>offline support</strong> and automatic syncing, users can access and update their budget anytime, ensuring they stay on top of their finances without needing a constant internet connection.</p>
+
+
+<h2 class="relative group">Links 
+    <div id="links" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#links" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>Budget Repo: <a href="https://github.com/jgrove2/budget" target="_blank">Github</a></li>
+<li>Actual Link: <a href="http://envelope-budget.fly.dev/" target="_blank">http://envelope-budget.fly.dev/</a></li>
+</ul>
 
           
           
