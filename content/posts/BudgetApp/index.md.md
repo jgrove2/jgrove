@@ -53,5 +53,7 @@ Budget follows a **local-first architecture**, meaning data is first stored on t
     - When the user accesses the app while online, Zero-cache pulls the latest updates from **PostgreSQL** and keeps **IndexedDB** up to date.
         
     - This ensures that the user always has the most recent data stored locally for offline access.
-## Photo Demo![[budget-img-1.png]]
-![[budget-img-2.png]]![[budget-img-3.png]]
+## Photo Demo
+![Login Screen](./budget-img-1.png)
+![Home Page](budget-img-2.png)
+![Add a New Transaction](budget-img-3.png)
