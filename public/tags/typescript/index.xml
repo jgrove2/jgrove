@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Typescript on Jgrove.dev</title>
-    <link>http://localhost:1313/tags/typescript/</link>
+    <link>https://jgrove.dev/tags/typescript/</link>
     <description>Recent content in Typescript on Jgrove.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>justinwgrove@gmail.com (Justin Grove)</managingEditor>
     <webMaster>justinwgrove@gmail.com (Justin Grove)</webMaster>
     <copyright>© 2025 Justin Grove</copyright>
-    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jgrove.dev/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Local-First Budgeting App</title>
-      <link>http://localhost:1313/posts/budgetapp/</link>
+      <link>https://jgrove.dev/posts/budgetapp/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
       <author>justinwgrove@gmail.com (Justin Grove)</author>
-      <guid>http://localhost:1313/posts/budgetapp/</guid>
+      <guid>https://jgrove.dev/posts/budgetapp/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/budgetapp/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://jgrove.dev/posts/budgetapp/featured.png" />
     </item>
     
   </channel>

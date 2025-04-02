@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jgrove.dev</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://jgrove.dev/categories/</link>
     <description>Recent content in Categories on Jgrove.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>justinwgrove@gmail.com (Justin Grove)</managingEditor>
     <webMaster>justinwgrove@gmail.com (Justin Grove)</webMaster>
     <copyright>© 2025 Justin Grove</copyright>
-    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jgrove.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Full-Stack</title>
-      <link>http://localhost:1313/categories/full-stack/</link>
+      <link>https://jgrove.dev/categories/full-stack/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
       <author>justinwgrove@gmail.com (Justin Grove)</author>
-      <guid>http://localhost:1313/categories/full-stack/</guid>
+      <guid>https://jgrove.dev/categories/full-stack/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Project</title>
-      <link>http://localhost:1313/categories/project/</link>
+      <link>https://jgrove.dev/categories/project/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
       <author>justinwgrove@gmail.com (Justin Grove)</author>
-      <guid>http://localhost:1313/categories/project/</guid>
+      <guid>https://jgrove.dev/categories/project/</guid>
       <description></description>
       
     </item>
