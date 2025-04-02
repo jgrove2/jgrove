@@ -16,7 +16,7 @@ title = "Jgrove.dev"
 [params.author]
   name = "Justin Grove"
   email = "justinwgrove@gmail.com"
-  image = "https://avatars.githubusercontent.com/u/26723005?v=4"
+  image = "img/author-2.jpeg"
   imageQuality = 96
   headline = "Software Engineer"
   bio = "A little bit about you"
