@@ -61,6 +61,7 @@ Budget follows a **local-first architecture**, meaning data is first stored on t
     <img src="./budget-img-3.png" style="width: 10rem"/>
 </div>
 ### Explanation
+
 Using Budget starts with a simple setup process, allowing users to structure their finances based on the **envelope budgeting** method. Here's how it works:
 
 1. **Registering an Account**
