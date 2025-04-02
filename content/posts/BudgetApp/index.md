@@ -54,6 +54,4 @@ Budget follows a **local-first architecture**, meaning data is first stored on t
         
     - This ensures that the user always has the most recent data stored locally for offline access.
 ## Photo Demo
-![Login Screen](./budget-img-1.png)
-![Home Page](budget-img-2.png)
-![Add a New Transaction](budget-img-3.png)
+{{<carousel images="{ budget-img-1.png, budget-img-2.png, budget-img-3.png}">}}
