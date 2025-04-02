@@ -1,6 +1,6 @@
 ---
 id: Local First Envelope Budgeting App
-aliases: []
+aliases: 
 tags:
   - Svelte
   - Typescript
@@ -9,12 +9,11 @@ tags:
 categories:
   - Full-stack
   - Project
-date: "2025-04-01"
+date: 2025-04-01
 description: I breifly go over one of my latest projects Budget and the technology used.
 draft: false
-title: Intro to Obsidian and Hugo
+title: "Building Budget: A Local-First Budgeting App"
 ---
-# Building Budget: A Local-First Budgeting App
 ## Introduction
 I built **Budget**, a personal budgeting application, to have more control over my finances without relying on paid services. It’s a web app built with **SvelteKit**, **Zero-cache**, and a **PostgreSQL database hosted on Fly.io**. The backend runs in **Docker containers**, and the app works both online and offline using **Index.db** and .
 
