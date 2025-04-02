@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="Svelte, Typescript, Local, First, " />
   
   
-  <link rel="canonical" href="https://jgrove.dev/posts/budgetapp/" />
+  <link rel="canonical" href="http://localhost:1313/posts/budgetapp/" />
   
   
   
@@ -64,7 +64,7 @@
   
   
   
-  <meta property="og:url" content="https://jgrove.dev/posts/budgetapp/">
+  <meta property="og:url" content="http://localhost:1313/posts/budgetapp/">
   <meta property="og:site_name" content="Jgrove.dev">
   <meta property="og:title" content="A Local-First Budgeting App">
   <meta property="og:description" content="I breifly go over one of my latest projects Budget and the technology used.">
@@ -77,11 +77,11 @@
     <meta property="article:tag" content="Typescript">
     <meta property="article:tag" content="Local">
     <meta property="article:tag" content="First">
-    <meta property="og:image" content="https://jgrove.dev/posts/budgetapp/featured.png">
+    <meta property="og:image" content="http://localhost:1313/posts/budgetapp/featured.png">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://jgrove.dev/posts/budgetapp/featured.png">
+  <meta name="twitter:image" content="http://localhost:1313/posts/budgetapp/featured.png">
   <meta name="twitter:title" content="A Local-First Budgeting App">
   <meta name="twitter:description" content="I breifly go over one of my latest projects Budget and the technology used.">
 
@@ -96,7 +96,7 @@
     "description": "I breifly go over one of my latest projects Budget and the technology used.",
     
     "inLanguage": "en",
-    "url" : "https:\/\/jgrove.dev\/posts\/budgetapp\/",
+    "url" : "http:\/\/localhost:1313\/posts\/budgetapp\/",
     "author" : {
       "@type": "Person",
       "name": "Justin Grove"
@@ -711,7 +711,11 @@
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#envelope-budgeting">Envelope Budgeting</a></li>
     <li><a href="#data-flow-in-budget">Data Flow in Budget</a></li>
-    <li><a href="#photo-demo">Photo Demo</a></li>
+    <li><a href="#photo-demo">Photo Demo</a>
+      <ul>
+        <li><a href="#explanation">Explanation</a></li>
+      </ul>
+    </li>
     <li><a href="#links">Links</a></li>
   </ul>
 </nav>
@@ -729,7 +733,11 @@
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#envelope-budgeting">Envelope Budgeting</a></li>
     <li><a href="#data-flow-in-budget">Data Flow in Budget</a></li>
-    <li><a href="#photo-demo">Photo Demo</a></li>
+    <li><a href="#photo-demo">Photo Demo</a>
+      <ul>
+        <li><a href="#explanation">Explanation</a></li>
+      </ul>
+    </li>
     <li><a href="#links">Links</a></li>
   </ul>
 </nav>
@@ -886,8 +894,19 @@
     <img src="./budget-img-2.png" style="width: 10rem"/>
     <img src="./budget-img-3.png" style="width: 10rem"/>
 </div>
-### Explanation
-Using Budget starts with a simple setup process, allowing users to structure their finances based on the **envelope budgeting** method. Here's how it works:
+
+
+<h3 class="relative group">Explanation 
+    <div id="explanation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#explanation" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Using Budget starts with a simple setup process, allowing users to structure their finances based on the <strong>envelope budgeting</strong> method. Here&rsquo;s how it works:</p>
 <ol>
 <li>
 <p><strong>Registering an Account</strong></p>
@@ -1054,7 +1073,7 @@ Using Budget starts with a simple setup process, allowing users to structure the
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://jgrove.dev/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div
