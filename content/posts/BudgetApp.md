@@ -1,16 +1,18 @@
 ---
 id: Local First Envelope Budgeting App
-aliases: 
+aliases: []
 tags:
   - Svelte
   - Typescript
   - Local
   - First
-date: 2025-04-01
+categories:
+  - Full-stack
+  - Project
+date: "2025-04-01"
 description: I breifly go over one of my latest projects Budget and the technology used.
 draft: false
 title: Intro to Obsidian and Hugo
-categories: "[Full-stack, Project]"
 ---
 # Building Budget: A Local-First Budgeting App
 ## Introduction
